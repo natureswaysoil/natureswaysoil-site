@@ -1,12 +1,17 @@
 export default function Home() {
   return (
-    <div style={{display:'grid',gap:16}}>
-      <h1 style={{fontSize:24,fontWeight:600}}>Welcome to Nature’s Way Soil</h1>
-      <p>Browse our products, add to cart, and check out with Stripe. You can also chat with us for help.</p>
-      <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
-        <a href="/products" style={{padding:'8px 12px',background:'#065f46',color:'#fff',borderRadius:6,textDecoration:'none'}}>Shop Products</a>
-        <a href="/cart" style={{padding:'8px 12px',border:'1px solid #e5e7eb',borderRadius:6,textDecoration:'none'}}>View Cart</a>
-        <a href="/chat" style={{padding:'8px 12px',border:'1px solid #e5e7eb',borderRadius:6,textDecoration:'none'}}>Chat with us</a>
+    <div style={{padding:'2rem',maxWidth:700,margin:'0 auto'}}>
+      <h1 style={{fontSize:36,fontWeight:700}}>Nature’s Way Soil</h1>
+      <p style={{fontSize:20,margin:'16px 0'}}>Organic soil & lawn products for healthy, sustainable gardens and landscapes.</p>
+      <a href="/products" style={{padding:'12px 24px',background:'#065f46',color:'#fff',borderRadius:6,textDecoration:'none',fontWeight:600}}>Shop Products</a>
+      <div style={{marginTop:32}}>
+        <h2 style={{fontSize:24,fontWeight:600}}>Why Choose Us?</h2>
+        <ul style={{fontSize:18,lineHeight:1.6}}>
+          <li>100% organic formulas</li>
+          <li>Safe for pets, kids, and pollinators</li>
+          <li>Proven results for lawns, gardens, and farms</li>
+          <li>Expert support and advice</li>
+        </ul>
       </div>
     </div>
   );

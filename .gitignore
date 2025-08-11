@@ -1,0 +1,9 @@
+# Ignore node_modules and other build artifacts
+node_modules/
+.next/
+out/
+dist/
+build/
+*.log
+.env
+package-lock.json

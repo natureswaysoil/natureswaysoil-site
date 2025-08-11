@@ -1,0 +1,1 @@
+{\n  "builds": [\n    {\n      "src": "next.config.js",\n      "use": "@vercel/next"\n    }\n  ],\n  "rewrites": [\n    {\n      "source": "/(.*)",\n      "destination": "/index.html"\n    }\n  ]\n}

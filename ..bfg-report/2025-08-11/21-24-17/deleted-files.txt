@@ -1,0 +1,5 @@
+b432af32dc0632314e8935127597be7626f8f8ab 21356240 libquery_engine-debian-openssl-1.1.x.so.node
+c1b2f7e7ded78ea2e4c9567a80ae550d1b160883 131406240 next-swc.linux-x64-gnu.node
+334bea4b43fa48d841c0844d6088919555566178 156809432 next-swc.linux-x64-musl.node
+0fff14d98fdf9223dd690a9c6454b190a4bc2922 2272024 resolver.linux-x64-gnu.node
+d881840b456de2d4e609b1c1f0427eb1f45e243c 2275480 resolver.linux-x64-musl.node

@@ -4,9 +4,7 @@ const nextConfig = {
   images: {
     domains: ['your-image-domain.com'], // replace with your actual image domains
   },
-  experimental: {
-    modern: true,
-  },
+  output: 'export',
 }
 
 module.exports = nextConfig;
